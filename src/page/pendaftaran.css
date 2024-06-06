@@ -1,0 +1,16 @@
+/* Home.css */
+.home-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 16%;
+    height: 100vh; /* Mengambil tinggi penuh dari viewport */
+    background-color: #f0f0f0;
+  }
+  
+  .home-content {
+    flex: 1; /* Mengisi sisa lebar dari container */
+    padding: 20px;
+  }
+  

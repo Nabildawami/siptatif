@@ -1,0 +1,23 @@
+/* Header.css */
+.header {
+    width: 100%; /* Lebar penuh */
+    height: 80px; /* Atur ketinggian sesuai kebutuhan */
+    background-color: #ffffff;
+    position: fixed; /* Tetap di posisinya saat digulir */
+    top: 0; /* Atur di bagian atas */
+    left: 0; /* Atur di sebelah kiri */
+    display: flex; /* Menggunakan flexbox */
+    justify-content: space-between; /* Menyeimbangkan ruang di sekitar elemen di header */
+    align-items: center; /* Memusatkan elemen secara vertikal */
+    border-bottom: 1px solid rgb(19, 4, 85); /* Menambahkan garis hitam di bawah header */
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}

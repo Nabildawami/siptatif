@@ -1,0 +1,29 @@
+.sidebar {
+  width: 205px;
+  height: 100vh; /* Tinggi viewport */
+  background-color: #ffffff;
+  padding: 20px;
+  position: fixed; /* Tetap di posisinya saat digulir */
+  top: 0; /* Atur di bagian atas */
+  left: 0; /* Atur di sebelah kiri */
+  border-right: 2px solid rgb(19, 4, 85); /* Garis hitam di sebelah kanan sidebar */
+}
+
+.nav-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-item {
+  margin-bottom: 10px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.nav-item a.active {
+  font-weight: bold;
+}
